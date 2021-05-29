@@ -1,5 +1,13 @@
 package com.mandeep.designPatterns.strategy;
 
+/**
+ * 
+ * The Strategy Pattern defines a family of algorithms, encapsulates each one,
+ * and makes them interchangeable. Strategy lets the algorithm vary
+ * independently from clients that use it.
+ *
+ */
+
 public class ShoppingApp {
 
 	public static void main(String[] args) {
@@ -38,6 +46,9 @@ interface PayStrategy {
 	void collectPayment(Double Amount);
 }
 
+/*
+ * Algorithm 1 for payment
+ */
 class Paypal implements PayStrategy {
 	private Double amount;
 
@@ -57,6 +68,9 @@ class Paypal implements PayStrategy {
 	}
 
 }
+/*
+ * Algorithm 2 for payment
+ */
 
 class CreditCard implements PayStrategy {
 	private Double amount;

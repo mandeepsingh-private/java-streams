@@ -1,5 +1,13 @@
 package com.mandeep.designPatterns.strategy;
 
+/**
+ * 
+ * The Strategy Pattern defines a family of algorithms, encapsulates each one,
+ * and makes them interchangeable. Strategy lets the algorithm vary
+ * independently from clients that use it.
+ *
+ */
+
 public class NavigationApp {
 
 	public static void main(String[] args) {
